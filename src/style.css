@@ -23,26 +23,11 @@ input {
     margin-top: 7px;
 }
 
-.centraliza {
-    text-align: center;
-}
-
-.font12-cor8 {
-    font-size: 12px;
-    color: #888888;
-}
-
-.input-group {
-    display: inline-block;
-    text-align: left;
-}
-
 .header {
     min-height: 319px;
-    background: #707070;
+    background-color: #707070;
     border: 1px solid #707070;
     text-align: center;
-    margin: 0px 0px 48.67px 0px;
 }
 .head-text-1 {
     font-size: 20px;
@@ -66,28 +51,99 @@ input {
 .head-nav {
     margin: 0px;
 }
+.nav-flex {
+    margin: auto;
+    max-width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
 .head-nav a {
+    margin: 1px;
     font-size: 14px;
-    padding: 12px 34px 12px 34px;
+    width: 160px;
+    height: 40px;
     color: #888888;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px #00000029;
     border-radius: 4px;
     text-decoration: none;
-    display: inline-block;
+}
+.head-nav p {
+    margin: 12px;
 }
 
-.mr40 {
-    margin-right: 40px;
-}
-
-.titulo-selecao {
+.selection-title {
     margin-top: 48.67px;
-
+}
+.items {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 900px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-item {
+    margin: 20px;
+    width: 185px;
+    height: 374px;
+}
+.card-img {
+    width: 185px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+}
+.card-title {
+    margin: 0;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #888888;
+}
+.card-description {
+    margin: 0;
+    font-size: 12px;
+    color: #888888;
+}
+.card-price {
+    margin: 0;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #888888;
+}
+.card-btn {
+    margin-top: 10px;
+    width: 184px;
+    height: 30px;
+    font-size: 16px;
+    color: #888888;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+.btn-items {
+    width: 260px;
+    height: 39px;
+    margin: auto;
+    margin-top: 53px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    display: block;
+    font-size: 16px;
+    color: #888888;
 }
 
-.titulo-news {
+.news-title {
     margin-top: 164px;
+}
+.news-content {
+    text-align: center;
 }
 .text-news {
     margin-top: 44px;
@@ -95,22 +151,36 @@ input {
     color: #888888;
 }
 .form-news {
+    margin: auto;
     margin-top: 39px;
+    max-width: 720px;
 }
-
+.form-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-group {
+    display: inline-block;
+    text-align: left;
+}
+.form-submit {
+    margin: auto;
+    margin-top: 50px;
+}
 .submit-btn {
+    text-align: center;
     padding: 11px 85px 10px 86px;
     font-size: 16px;
     color: #888888;
     background-color: #FFFFFF;
     border: 1px solid #707070;
     border-radius: 4px;
-    margin-top: 50px;
 }
 
 .footer {
     height: 201px;
-    background: #707070;
+    background-color: #707070;
     border: 1px solid #707070;
     margin-top: 142.36px;
 }
