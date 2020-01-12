@@ -17,24 +17,38 @@
         <p class="head-text-3">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
 
         <nav class="head-nav">
-            <a href="#">Conheça a Linx</a>
-            <a href="#">Ajude o algorítimo</a>
-            <a href="#">Seus produtos</a>
-            <a href="#">Compartilhe</a>
+            <a class="mr40" href="#">Conheça a Linx</a>
+            <a class="mr40" href="#">Ajude o algorítimo</a>
+            <a class="mr40" href="#">Seus produtos</a>
+            <a class="mr40" href="#">Compartilhe</a>
         </nav>
     </header>
 
     <section>
-        <p>Sua seleção especial</p>
+        <h2 class="titulo-selecao">Sua seleção especial</h2>
         <div>
 
         </div>
     </section>
 
     <section>
-        <p>Compartilhe a novidade</p>
-        <div>
+        <h2 class="titulo-news">Compartilhe a novidade</h2>
+        <div class="centraliza">
+            <p class="text-news">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+            <form class="form-news" action="#" method="post" onsubmit="return checkEmail()">
+                <div class="input-group mr40">
+                    <label for="nome">Nome do seu amigo:</label><br/>
+                    <input type="text" name="nome" id="nome" required minlength="3">
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail:</label><br/>
+                    <input type="text" name="email" id="email" required>
+                </div>
 
+                <div>
+                    <button class="submit-btn" type="submit">Enviar agora</button>
+                </div>
+            </form>
         </div>
     </section>
 

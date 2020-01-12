@@ -2,19 +2,53 @@ body {
     margin: 0;
     font-family: "helvetica";
 }
-.header {
-    height: 319px;
-    background: #707070;
+
+body h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #888888;
+}
+
+label {
+    font-size: 12px;
+    color: #888888;
+}
+
+input {
+    width: 340px;
+    height: 30px;
+    background-color: #FFFFFF;
     border: 1px solid #707070;
-    opacity: 1;
+    margin-top: 7px;
+}
+
+.centraliza {
     text-align: center;
 }
+
+.font12-cor8 {
+    font-size: 12px;
+    color: #888888;
+}
+
+.input-group {
+    display: inline-block;
+    text-align: left;
+}
+
+.header {
+    min-height: 319px;
+    background: #707070;
+    border: 1px solid #707070;
+    text-align: center;
+    margin: 0px 0px 48.67px 0px;
+}
 .head-text-1 {
-    padding-top: 69px;
     font-size: 20px;
     height: 23px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 69px 0px 0px 0px;
 }
 .head-text-2 {
     font-size: 40px;
@@ -24,39 +58,64 @@ body {
     margin: 0;
 }
 .head-text-3 {
-    padding-top: 24px;
-    padding-bottom: 50px;
     font-size: 14px;
     height: 16px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 24px 0px 50px 0px;
 }
 .head-nav {
-    padding-bottom: 39.33px;
+    margin: 0px;
 }
-
 .head-nav a {
     font-size: 14px;
     padding: 12px 34px 12px 34px;
     color: #888888;
     background-color: #FFFFFF;
-    width: 160px;
-    height: 40px;
     box-shadow: 0px 1px 6px #00000029;
     border-radius: 4px;
     text-decoration: none;
-    margin-left: 40px;
+    display: inline-block;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+.titulo-selecao {
+    margin-top: 48.67px;
+
+}
+
+.titulo-news {
+    margin-top: 164px;
+}
+.text-news {
+    margin-top: 44px;
+    font-size: 14px;
+    color: #888888;
+}
+.form-news {
+    margin-top: 39px;
+}
+
+.submit-btn {
+    padding: 11px 85px 10px 86px;
+    font-size: 16px;
+    color: #888888;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    margin-top: 50px;
 }
 
 .footer {
     height: 201px;
     background: #707070;
     border: 1px solid #707070;
-    opacity: 1;
+    margin-top: 142.36px;
 }
 .footerText {
-    padding-top: 64.64px;
-    padding-bottom: 72px;
+    margin-top: 64.64px;
     text-align: center;
     font-size: 12px;
     color: #FFFFFF;
