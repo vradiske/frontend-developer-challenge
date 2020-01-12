@@ -31,20 +31,17 @@ input {
 }
 .head-text-1 {
     font-size: 20px;
-    height: 23px;
     color: #FFFFFF;
     margin: 69px 0px 0px 0px;
 }
 .head-text-2 {
     font-size: 40px;
-    height: 48px;
     color: #FFFFFF;
     font-weight: bold;
     margin: 0;
 }
 .head-text-3 {
     font-size: 14px;
-    height: 16px;
     color: #FFFFFF;
     margin: 24px 0px 50px 0px;
 }
@@ -60,7 +57,7 @@ input {
 
 }
 .head-nav a {
-    margin: 1px;
+    margin: 2px;
     font-size: 14px;
     width: 160px;
     height: 40px;
@@ -79,20 +76,22 @@ input {
 }
 .items {
     margin: auto;
-    margin-top: 50px;
-    max-width: 900px;
+    margin-top: 30px;
+    max-width: 931px;
     
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .card-item {
-    margin: 20px;
-    width: 185px;
-    height: 374px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 192.75px;
+    height: 377px;
 }
 .card-img {
-    width: 185px;
+    width: 190.75px;
     background-color: #FFFFFF;
     border: 1px solid #707070;
 }
@@ -100,7 +99,7 @@ input {
     margin: 0;
     margin-top: 14px;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
     color: #888888;
 }
 .card-description {
@@ -118,7 +117,7 @@ input {
 }
 .card-btn {
     margin-top: 10px;
-    width: 184px;
+    width: 192.75px;
     height: 30px;
     font-size: 16px;
     color: #888888;
@@ -130,7 +129,7 @@ input {
     width: 260px;
     height: 39px;
     margin: auto;
-    margin-top: 53px;
+    margin-top: 22px;
     background-color: #FFFFFF;
     border: 1px solid #707070;
     border-radius: 4px;
@@ -153,7 +152,7 @@ input {
 .form-news {
     margin: auto;
     margin-top: 39px;
-    max-width: 720px;
+    max-width: 764px;
 }
 .form-fields {
     display: flex;
@@ -161,8 +160,10 @@ input {
     justify-content: space-between;
 }
 .input-group {
-    display: inline-block;
+    display: inline-flex;
+    flex-flow: column;
     text-align: left;
+    margin: auto;
 }
 .form-submit {
     margin: auto;
